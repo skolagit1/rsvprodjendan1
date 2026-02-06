@@ -1,0 +1,109 @@
+:root {
+    --najsvetlija: #F6F0D7;
+    --zelena-najsvetlija: #C5D89D;
+    --zelena-tamnija: #9CAB84;
+    --zelena-tamna: #89986D;
+}
+body {
+    background-color: var(--najsvetlija);
+    margin: 0;
+    padding: 0;
+}
+#pozivnica {
+    width: 60%;
+    margin: 0 auto;
+
+}
+#navigacija {
+    background-color: var(--zelena-tamna);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#navigacija a {
+    color: var(--najsvetlija);
+    text-decoration: none;
+    padding: 10px;
+}
+#navigacija a:hover {
+    transform: translateY(-2px);
+}
+.balon1 {
+    width: 400px;
+    position: absolute;
+    z-index: -1;
+
+}
+#tekst-pozivnice {
+    padding: 10px;
+    background-color: var(--zelena-tamna);
+    margin-top: 25px;
+}
+#tekst-pozivnice p {
+    font-family: "Condiment";
+    font-size: 50px;
+    text-align: center;
+}
+.org-naslov {
+    text-align: center;
+    color: var(--zelena-tamna);
+    font-family: cursive;
+}
+#kartice {
+    display: flex;
+    justify-content: space-between;
+}
+#kartice div {
+    background-color: var(--zelena-tamnija);
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#kartice div:hover {
+    transform: translateY(-2px);
+}
+#kartice div img {
+    width: 100%;
+}
+#kartice div p {
+    margin-top: auto;
+}
+#forma h1 {
+    text-align: center;
+    color: var(--zelena-tamna);
+    font-family: cursive;
+}
+form {
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: var(--zelena-tamna);
+    color: var(--najsvetlija);
+    font-size: 20px;
+}
+form label {
+    font-size: 25px;
+}
+form input {
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+form textarea {
+    width: 300px;
+}
+form button {
+    padding: 20px 30px;
+    margin-top: 10px;
+    background-color: var(--zelena-najsvetlija);
+    border: none;
+    border-radius: 10px;
+}
+form button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
